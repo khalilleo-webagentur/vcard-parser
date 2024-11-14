@@ -1,0 +1,36 @@
+{
+  "name": "khalilleo-webagentur/vcard-parser",
+  "description": "vCard-parser is a simple vCard file parser with the focus on ease of use.",
+  "keywords": [
+    "vCard",
+    "nuovo",
+    "vcf parser"
+  ],
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Khalilleo",
+      "email": "dev@khalilleo.com"
+    }
+  ],
+  "require": {
+    "php": "^8.2",
+    "ext-mbstring": "*"
+  },
+  "require-dev": {},
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "Khalilleo\\VCardParser\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": []
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
